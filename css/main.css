@@ -1,0 +1,194 @@
+body{
+    background-color:black;
+}
+#container{
+background-color:white;
+width:90%;
+margin: 0 auto;
+}
+header{
+    height:130px;
+    background-color:  #2e2a2a;
+   
+}
+/* header img{
+    width:150px;
+    height:5vh;
+} */
+header a{
+    color:white;
+    font-size: 1.6em;
+    text-decoration: none;
+    text-align: center;
+}
+header p{
+    margin-top: -2em;
+    color:white;
+    text-align: center;
+}
+nav{
+    /* height:10vh; */
+    width:80vw;
+    /* float: right; */
+    margin-top:-45px;
+    
+}
+
+nav ul{
+    padding-left: 0px;
+    display: flex ;
+}
+
+nav li{
+    
+    width: 40%;
+    list-style-type: none;
+    text-align: center;
+    /* text-align: end; */
+}
+nav li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+nav li a:hover{
+    border-bottom: 2px solid rgb(210, 94, 16);
+}
+section{
+    /* width:70%; */
+    width:100%;
+    /* float: left; */
+}
+section h1{
+    padding: 14px;
+    font-size: 2.5em;
+}
+section p{
+padding: 14px;
+line-height: 200%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section img{
+    /* width:50%; */
+    width:100%;
+    margin-top: -10px;
+    /* padding: 14px; */
+    /* float:left; */
+}
+section h3{
+    padding: 14px;
+    font-size: 1.5em;
+}
+aside{
+    /* width:28%; */
+    width:40%;
+    padding:14px;
+   
+    
+    /* float: right; */
+}
+aside li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+aside li a{
+    text-decoration: none;
+    
+    color:grey;
+}
+#table{
+    /* padding:14px; */
+    clear: both;
+    width: 100%;
+   
+   
+}
+#table thead{
+    background-color: black;
+    color: white;
+    
+}
+#table th{
+    /* padding:14px; */
+}
+#table td{
+    width:200px;
+    /* padding:14px; */
+}
+
+footer{
+    padding:15px;
+    clear: both;
+    width:100%;
+    height:10vh;
+    background-color:  #2e2a2a;
+    color:white;
+    text-align: center;
+    
+}
+hr{
+    width:80%;
+    color: white;
+}
+
+
+@media only screen and (min-width: 860px) {
+    header{
+        padding:0 14px;
+    }
+    header a{
+        text-align:left;
+    }
+    header p{
+       
+        text-align: left;
+    }
+    nav{
+        width:40vw;
+        float: right;
+        padding-right: 14px;
+        margin: -105px 0 0 0; 
+         
+    }
+    nav li{
+        text-align: end;
+    }
+    nav li a{
+        font-size: 1.1em;
+    }
+    section{
+        /* width:70%; */
+        width:68%;
+        float: left; 
+    }
+    section img{
+        width:50%;
+       
+        margin-top: -10px;
+        padding: 14px;
+        float:left;
+    }
+    aside{
+        /* width:28%; */
+        width:28%;
+        padding:14px;
+        float: right;
+       
+        
+        /* float: right; */
+    }
+    table, td,th{
+        padding: 14px;
+    }
+    /* styles for teh container div */}
+
+   
+
+@media only screen and (min-width: 860px) {
+    nav{
+    
+        margin: -105px 0 0 0;  
+    }
+}

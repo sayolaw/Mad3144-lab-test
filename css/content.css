@@ -1,0 +1,354 @@
+body{
+    background-color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+background-color:white;
+width:90%;
+margin: 0 auto;
+}
+header{
+    height:130px;
+    background-color: #2e2a2a;
+   
+}
+/* header img{
+    width:150px;
+    height:5vh;
+} */
+header a{
+    color:white;
+    font-size: 1.6em;
+    text-decoration: none;
+    text-align: center;
+}
+header p{
+    margin-top: -2em;
+    color:white;
+    text-align: center;
+}
+nav{
+    /* height:10vh; */
+    width:80vw;
+    margin:0 auto ;
+    /* float: right; */
+    margin-top:-45px;
+    
+}
+
+nav ul{
+    display: flex ;
+    padding-left: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav li{
+    
+    width: 40%;
+    list-style-type: none;
+    text-align: center;
+    
+    /* text-align: end; */
+}
+nav li a{
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+nav li a:hover{
+    border-bottom: 2px solid rgb(210, 94, 16);
+}
+section{
+    /* width:70%; */
+    width:100%;
+    /* float: left; */
+}
+section h1{
+    padding: 14px;
+    font-size: 2.5em;
+}
+section p{
+padding: 14px;
+line-height: 200%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section img{
+    /* width:50%; */
+    width:100%;
+    margin-top: -10px;
+    /* padding: 14px; */
+    /* float:left; */
+}
+section h3{
+    padding: 14px;
+    font-size: 1.5em;
+}
+section input,textarea{
+
+display: inline;
+width: 100%;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+margin-bottom: 30px;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+section button{
+    
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        background-color: #210101;
+        color: white;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        
+}
+
+form{
+    padding: 14px;
+}
+section textarea{
+    width: 100%;
+}
+#contact p{
+    padding-bottom: 0px;
+    line-height: 100%;
+}
+#contact address{
+    padding-left: 14px;
+}
+aside{
+    /* width:28%; */
+    width:40%;
+    padding:14px;
+   
+    
+    /* float: right; */
+}
+aside h3{
+    white-space: nowrap;
+}
+aside li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+aside li a{
+    text-decoration: none;
+    color:grey;
+}
+
+#table{
+    /* padding:14px; */
+    clear: both;
+    width: 100%;
+   
+   
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    
+}
+#skills ul li{
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}
+#table thead{
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    
+}
+#table th{
+    /* padding:14px; */
+}
+#table td{
+    width:200px;
+    font-size:0.4em;
+    /* padding:14px; */
+}
+.carousel {
+    width: 90%;
+    height: 350px;
+    border-radius: 3px;
+    margin: 0px auto 50px auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+    
+    .carousel:hover .controls {
+      opacity: 1;
+    }
+    
+    .controls {
+      opacity: 0;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 99999;
+      transition: all ease 0.5s;}
+      
+      .control {
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
+        opacity: .5;
+        transition: ease .3s;
+        cursor: pointer;}
+        
+        .control:hover {
+          opacity: 1;
+        }
+      
+    
+    
+      .slides {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        display: flex;
+        width: 100%;
+        transition: 1s ease-in-out all;
+ 
+      }
+         
+     .slides .slide {
+        min-width: 100%;
+        min-height:200px;
+        height: auto;
+       padding:0px;
+       
+      }
+
+footer{
+    padding:14px 0px;
+    clear: both;
+    width:100%;
+    height:10vh;
+    background-color: #2e2a2a;
+    color:white;
+    text-align: center;
+    
+}
+hr{
+    margin-left: -15px;
+    color: white;
+}
+
+
+@media only screen and (min-width: 860px) {
+    header{
+        padding:0 14px;
+    }
+    header a{
+        text-align:left;
+    }
+    header p{
+       
+        text-align: left;
+    }
+    nav{
+        width:40vw;
+        float: right;
+        padding-right: 14px;
+        margin: -105px 0 0 0; 
+         
+    }
+    nav li{
+        text-align: end;
+    }
+    nav li a{
+        font-size: 1.1em;
+    }
+    section{
+        /* width:70%; */
+        width:68%;
+        float: right; 
+    }
+    section img{
+        width:50%;
+       
+        margin-top: -10px;
+        padding: 14px;
+        float:left;
+    }
+    .column1,.column2{
+        width:49%;
+    }
+    .column1{
+        float: left;
+    }
+    .column2{
+        float: right;
+    }
+    aside{
+        /* width:28%; */
+        width:28%;
+        padding:14px;
+        float: left;
+        position: absolute;
+        top:150px;
+       
+        
+        /* float: right; */
+    }
+    table, td,th{
+        padding: 14px;
+
+    }
+    #table thead{
+        font-size: 0.9em;
+        
+    }
+
+    #table td{
+        font-size:0.8em;
+        /* padding:14px; */
+    }
+    #skills ul li{
+            margin-left: 30px;
+            margin-bottom: 10px;
+        
+    }
+    section input,textarea{
+
+       
+        width: 49%;
+       
+        }
+    /* styles for teh container div */}
+  
+
+   
+
+@media only screen and (min-width: 860px) {
+    nav{
+    
+        margin: -105px 0 0 0;  
+    }
+}
